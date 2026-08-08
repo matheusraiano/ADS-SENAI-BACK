@@ -1,0 +1,40 @@
+Aula01(07-08-2026):
+    P: o que é uma IDE? Fale sobre o Inteliji em relação a outros IDEs de java
+    R: é um ambiente de desenvolvimento! O IntelliJ IDEA é uma IDE popular para Java.
+
+    P: o que é um compilador?
+    R: é um programa que transforma o código em uma linguagem que o computador consegue entender. no Java transforma .java em bytecode .class.
+
+    P: o que é o SDK do java? existe mais de um?
+    R: é um kit de desenvolvimento, sim!
+
+    P: me mostre o link de download da ultima versão do inteliji com sdk
+    R: https://www.jetbrains.com/idea/download/?utm_source=chatgpt.com&section=windows / https://www.oracle.com/java/technologies/downloads/
+
+    Linguagem Compilada:
+        O computador traduz todo o programa para um arquivo executável antes do uso. Isso deixa o programa muito rápido na hora de rodar.
+        O código vira um arquivo pronto para o computador.
+        A execução é rápida.Erros de código aparecem antes de o programa rodar.
+        Exemplos: C, C++ e Rust.
+
+    Linguagem Interpretada:
+        O interpretador lê o código fonte e executa cada comando na mesma hora, sem criar um arquivo executável separado.
+        O programa roda direto do código original.
+        A execução é mais lenta.O erro só aparece na hora em que o programa chega naquela linha.
+        Exemplos: Python, JavaScript e Ruby.
+
+    Linguagem Híbrida:
+        O código passa por uma primeira tradução rápida para um formato intermediário (como um bytecode). Depois, uma máquina virtual lê esse formato e executa no computador.
+        Junta a velocidade de preparo com a facilidade de uso.
+        Roda em vários sistemas diferentes com a mesma facilidade.
+        Exemplos: Java e C#.
+
+    POO:
+    Classe:
+        Objeto: óculos
+            caracteristicas:
+                material: plástico
+                tamanho: 15cm
+                cor: preto
+            funcionalidades:
+                correção visual

@@ -38,3 +38,5 @@ Aula01(07-08-2026):
                     cor: preto
                 funcionalidades:
                     correção visual
+Aula01(21-08-2026):
+    

@@ -69,7 +69,10 @@ public class InterfaceCorrente {
             }
             Interface.escolha();
         } else if (n == 4){
-            JOptionPane.showMessageDialog(null, "Limite: " + conta2.getLimite());
+            double limiteDisponivel = conta2.getLimite() - conta2.getLimiteUsado();
+            JOptionPane.showMessageDialog(null, "Limite Total: " + conta2.getLimite() + "\n" +
+                    "Limite Usado: " + conta2.getLimiteUsado() + "\n" +
+                    "Limite Disponível: R$ " + limiteDisponivel);
             Interface.escolha();
         } else {
             return;

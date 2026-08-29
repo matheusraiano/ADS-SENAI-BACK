@@ -68,4 +68,17 @@ public class ContaBancaria {
         setSaldo(getSaldo() - saque);
         System.out.println("Você sacou " + saque + " da sua conta!");
     }
+
+    public void transferirPara(ContaBancaria destino, double valor) {
+        if (valor <= 0) {
+            System.out.println("Valor de transferência inválido!");
+            return;
+        }
+        if (valor > getSaldo()) {
+            System.out.println("Saldo insuficiente!");
+            return;
+        }
+        sacar(valor);
+        destino.depositar(valor);
+    }
 }

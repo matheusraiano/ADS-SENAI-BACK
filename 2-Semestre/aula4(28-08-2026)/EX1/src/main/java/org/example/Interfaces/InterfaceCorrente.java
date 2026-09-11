@@ -1,9 +1,6 @@
 package org.example.Interfaces;
 
-import org.example.Classes.ContaCorrente;
-
 import javax.swing.*;
-import java.awt.*;
 
 import static org.example.Main.conta2;
 import static org.example.Main.conta3;

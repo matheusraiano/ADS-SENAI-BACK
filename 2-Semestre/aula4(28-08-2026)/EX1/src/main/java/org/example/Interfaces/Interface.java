@@ -1,7 +1,5 @@
 package org.example.Interfaces;
 
-import org.example.Classes.ContaBancaria;
-
 import javax.swing.*;
 
 public class Interface {

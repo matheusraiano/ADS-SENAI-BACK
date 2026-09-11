@@ -1,8 +1,5 @@
 package org.example.Interfaces;
 
-import org.example.Classes.ContaCorrente;
-import org.example.Classes.ContaPoupanca;
-
 import javax.swing.*;
 
 import static org.example.Main.conta2;

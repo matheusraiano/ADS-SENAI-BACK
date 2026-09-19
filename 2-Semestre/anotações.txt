@@ -38,5 +38,16 @@ Aula01(07-08-2026):
                     cor: preto
                 funcionalidades:
                     correção visual
-Aula01(11-09-2026):
-    
+Aula01(18-09-2026):
+    O que é o Polimorfismo:
+        Conceito básico: 
+            Permite chamar um método com o mesmo nome em várias classes, mas cada classe executa uma ação própria.
+        Exemplo prático: 
+            Pense no comando falar(). Um gato mia, um cachorro late e uma pessoa conversa. Todos usam o mesmo nome de método, mas o comportamento muda conforme o objeto.
+        Flexibilidade: 
+            O código principal não precisa saber o tipo exato do objeto para usá-lo, apenas que ele possui aquele método
+    Tipos Principais de Polimorfismo:
+        Dinâmico (Sobrescrita / Overriding): 
+            Ocorre em tempo de execução. A subclasse reescreve um método herdado da superclasse para dar a ele uma nova forma de funcionamento.
+        Estático (Sobrecarga / Overloading): 
+            Ocorre em tempo de compilação. Permite criar vários métodos com o mesmo nome na mesma classe, mas com quantidades ou tipos de parâmetros diferentes.

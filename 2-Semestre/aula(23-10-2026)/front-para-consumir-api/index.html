@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Gerenciamento de Usuários</h1>
+
+        <section class="card">
+            <h2>Cadastrar Usuário</h2>
+
+            <form id="formUsuario">
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite o nome do usuário"
+                    required
+                >
+
+                <button type="submit" id="btnSalvar">
+                    Cadastrar Usuário
+                </button>
+
+                <button type="button" id="btnLimpar">
+                    Limpar Formulário
+                </button>
+            </form>
+
+            <p id="mensagemFormulario" aria-live="polite"></p>
+        </section>
+
+        <section class="card">
+            <h2>Buscar Usuário por ID</h2>
+
+            <label for="buscarId">ID do usuário:</label>
+            <input
+                type="number"
+                id="buscarId"
+                min="1"
+                placeholder="Digite o ID"
+            >
+
+            <button type="button" id="btnBuscar">
+                Buscar Usuário
+            </button>
+        </section>
+
+        <section class="card">
+            <h2>Usuários Cadastrados</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="listaUsuarios"></tbody>
+                </table>
+            </div>
+
+            <button type="button" id="btnListar">
+                Atualizar Listagem
+            </button>
+
+            <p id="mensagemLista" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

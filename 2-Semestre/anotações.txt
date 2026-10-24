@@ -89,5 +89,6 @@ Aula(02-10-2026):
     R - read --> GET - api(rest)
     U - update --> PUT - api(rest)
     D - delete --> DELETE - api(rest)
-    Continuação da criação do projeto com spring-boot:
-        
+Aula(23-10-2026):
+    para rodar o .jar da api que você colocou na ec2 via filezila use: 
+        java -jar apiusuarios/apiusuarios-0.0.1-SNAPSHOT.jar
